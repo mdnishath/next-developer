@@ -15,7 +15,7 @@ import {
 
 const Navbar = () => {
   const pathname: string = usePathname();
-  console.log(pathname);
+  // console.log(pathname);
   return (
     <nav className=" border-b py-2">
       <Container>
